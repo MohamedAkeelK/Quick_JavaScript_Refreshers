@@ -16,17 +16,26 @@ Here are a few examples of the types of contributions we welcome:
 
 Here are the steps to follow to make a contribution:
 
-1. Fork the repository.
+1. If starting from scratch, Fork the repository.
 2. Create a new branch with a descriptive name (e.g., `fix-typo-in-readme`).
-3. Make your changes in the new branch.
-4. Run tests and make sure everything is working.
-5. Commit your changes with a descriptive message.
-6. Push your changes to your forked repository.
-7. Submit a pull request to the original repository.
+3. If you've forked already, sync your Fork with the submissions branch.
+4. Make changes as you see fit.
+5. Run tests and make sure everything is working.
+6. Commit your changes with a descriptive message (More details are encouraged).
+7. Submit a pull request to the **submissions** repository.
+8. Keep an eye out for comments and feedback.
+
+***PLEASE SUBMIT ALL PULL REQUESTS TO THE "SUBMISSIONS BRANCH" ALL PULL REQUESTS TO MAIN WILL BE REJECTED***
 
 ## Coding Style
 
 Please follow the coding style used in the original repository.
+
+## NPM Packages
+
+- To avoid a bloated dependency list, please try install your dependencies in the appropriate subdirectory.
+- For example, if you need to `npm install mongoose` please cd into the mongoose directory to do so.
+- Pull requests with root directory npm installs will be rejected!
 
 ## License
 
